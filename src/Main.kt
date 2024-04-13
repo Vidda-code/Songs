@@ -5,4 +5,9 @@ fun main() {
     songTwo.play()
     songTwo.stop()
     songOne.play()
+
+    //For DVDPlayer Class
+    val d = DVDPlayer(true)
+    d.playDVD()
+    d.recordDVD()
 }
